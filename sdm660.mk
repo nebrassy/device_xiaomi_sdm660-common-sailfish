@@ -474,3 +474,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctl
+
+PRODUCT_PACKAGES += \
+     on-post-data.sh

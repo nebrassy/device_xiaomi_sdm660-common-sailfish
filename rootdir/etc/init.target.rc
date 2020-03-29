@@ -103,6 +103,8 @@ on post-fs-data
     mkdir /data/vendor/mac_addr 0770 system system
     mkdir /data/vendor/thermal 0771 root system
     mkdir /data/vendor/thermal/config 0771 root system
+#bootctl
+    exec - root -- /system/bin/on-post-data.sh
 
 on boot
     start vendor.rmt_storage
