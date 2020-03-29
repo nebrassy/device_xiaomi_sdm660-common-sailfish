@@ -450,3 +450,19 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Media
+PRODUCT_PACKAGES += \
+    libmedia_omx
+
+# Hybris compat libs
+PRODUCT_PACKAGES += \
+    libmedia_compat_layer \
+    libui_compat_layer
+
+# Droidmedia
+PRODUCT_PACKAGES += \
+    libdroidmedia \
+    minimediaservice \
+    minisfservice \
+    miniafservice
