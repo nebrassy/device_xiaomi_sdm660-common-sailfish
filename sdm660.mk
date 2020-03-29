@@ -477,3 +477,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
      on-post-data.sh
+
+PRODUCT_PACKAGES += \
+    sensorservice
