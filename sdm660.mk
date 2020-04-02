@@ -480,6 +480,7 @@ PRODUCT_PACKAGES += \
     bootctl
 
 PRODUCT_PACKAGES += \
+     init.disabled.rc \
      on-post-data.sh
 
 PRODUCT_PACKAGES += \
