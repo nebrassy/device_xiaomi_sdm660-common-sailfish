@@ -106,6 +106,8 @@ on post-fs-data
 #bootctl
     exec - root -- /system/bin/on-post-data.sh
 
+    mkdir /data/vendor_de/fpdata 0700 system system
+
 on boot
     start vendor.rmt_storage
     start rfs_access
